@@ -1,0 +1,115 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 20px;
+    height: 20px;
+    background-color: #EAF2FD;
+    border: 2px solid #EAF2FD;
+    border-radius: 10px;
+}
+
+.caixa {
+    position: relative;
+    width: 80%;
+    height: 88px;
+    margin: 0 auto 66.5px auto;
+}
+
+.caixa p {
+    font-weight: bold;
+    color: #464646;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.email {
+    font-weight: bold;
+    color: #464646;
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 5%
+}
+
+.inicioConteudo {
+    width: 70%;
+    align-items: flex-start;
+}
+
+.inicio h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.inicio p{
+    margin-bottom: 10px;
+}
+
+.inicio li {
+    display: inline;
+    margin: 15px 0 15px 15px;
+}
+
+.divImagemPerfil{
+    width: 30%;
+    display: inline-block;
+}
+
+.imagemPerfil{
+    border-radius: 50%;
+    width: 25%;
+
+}
+
+.sobreMim {
+    width: 100%;
+    background-color: #EAF2FD;
+}
+
+.divSobreMim {
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.sobreMim h2 {
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.sobreMim p{
+    text-align: justify;
+}
+
+    
