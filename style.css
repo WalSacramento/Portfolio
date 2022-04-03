@@ -103,13 +103,43 @@ a:hover {
 }
 
 .sobreMim h2 {
-    font-size: 22px;
     font-weight: bold;
-    
+    font-size: x-large;
 }
 
 .sobreMim p{
     text-align: justify;
 }
 
+.skills h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5% 0;
+}
+
+.divSkills {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
     
+}
+
+.skillCard {
+    height: 175px;
+    width: 15%;
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.skillIcone {
+    max-width: 80px;
+    max-height: 80px;
+    
+}
