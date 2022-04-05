@@ -220,3 +220,22 @@ a:hover {
     max-height: 180px;
     
 }
+
+.contato {
+    background: #EAF2FD;
+    
+    
+}
+
+.divContato {
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+        "imagem chamada"
+        "imagem formulario"
+        "imagem formulario";
+    gap: 0 2rem;
+    width: var(--largura-large)
+
+}
+
